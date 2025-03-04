@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC/DC - Высокое Напряжение</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font-family: 'Impact', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: red;
+            padding: 20px;
+            font-size: 2em;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 5px black;
+            position: relative;
+            margin-bottom: 40px;
+        }
+        .header-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .header-buttons a {
+            color: white;
+            font-size: 1.2em;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: yellow;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .header-buttons a:hover {
+            background: orange;
+            transform: scale(1.1);
+            box-shadow: 0 0 15px white;
+        }
+        .container {
+            padding: 50px;
+        }
+        .btn {
+            background: yellow;
+            padding: 15px 30px;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: orange;
+            transform: scale(1.1);
+            box-shadow: 0 0 15px white;
+        }
+        .lightning {
+            background: url('lightning.gif') center/cover no-repeat;
+            height: 300px;
+            margin-top: 20px;
+        }
+        .acdc-photo {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin: 20px 0;
+            border: 5px solid yellow;
+            box-shadow: 0 0 10px white;
+        }
+        /* Стиль подвала */
+        footer {
+            background: rgba(255, 0, 0, 0.2);
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+        .watermark {
+            opacity: 0.7;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        AC/DC - Высокое Напряжение ⚡
+        <div class="header-buttons">
+            <a href="history.html">История</a>
+            <a href="disc.html">Дискография</a>
+            <a href="Tours.html">Туры</a>
+            <a href="Fan-club.html">Фан-клуб</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <p>Добро пожаловать в мир легендарного рока!</p>
+        <a href="#" class="btn">Войти в мир AC/DC</a>
+
+        <!-- Добавление фотографий AC/DC -->
+        <img src="i.webp" alt="AC/DC Band" class="acdc-photo">
+        <img src="i (1).webp" alt="AC/DC on Stage" class="acdc-photo">
+    </div>
+
+    <div class="lightning"></div>
+
+    <!-- Подвал с информацией -->
+    <footer>
+        <p>Этот сайт создан в учебных целях и не является официальным ресурсом AC/DC.</p>
+        <p class="watermark">© 2025 Все права защищены.</p>
+    </footer>
+</body>
+</html>
